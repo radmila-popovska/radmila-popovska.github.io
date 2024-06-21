@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.con {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #522607;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile img {
+
+    width: 290px;
+    height: 270px;
+    margin-top: -40px;
+    padding-bottom: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 35px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.home a:hover{
+    color: #121248;
+}
+.edu a:hover{
+    color: #121248;
+}
+.travel a:hover{
+    color: #121248;
+}
+.contact a:hover{
+    color: #121248;
+}
+
+main h1{
+    margin-right: 230px;
+    text-transform: uppercase;
+    color: #522607;
+    letter-spacing: 5px;
+    border: 1px #522607 groove;
+    display: inline-block;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+.list{
+    margin-top: -300px;
+    margin-right: 70px;
+    text-align: justify;
+}
+.bratstvo{
+    display: inline-block;
+    width: 90px;
+    margin-left: -130px;
+    margin-top: 50px;
+}
+main .gim{
+    display: inline-block;
+    margin-left: -130px;
+    padding: 5px;
+   padding-top: 15px;
+
+}
+.finki{
+    display: inline-block;
+    margin-left: -130px;
+    border-radius: 50px;
+}

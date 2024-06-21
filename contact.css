@@ -1,0 +1,287 @@
+/*body {*/
+/*    font-family: "Times New Roman",Arial, sans-serif;*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.con {*/
+/*    display: flex;*/
+/*    width: 100%;*/
+
+/*}*/
+/*aside{*/
+/*    position: fixed;*/
+/*}*/
+
+/*.sidebar {*/
+/*    background-color: #522607;*/
+/*    color: #fff;*/
+/*    width: 250px;*/
+/*    padding: 20px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.profile img {*/
+
+/*    width: 290px;*/
+/*    height: 270px;*/
+/*    margin-top: -40px;*/
+/*    padding-bottom: 25px;*/
+/*}*/
+
+/*nav ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*nav ul li {*/
+/*    margin: 35px 0;*/
+/*}*/
+
+/*nav ul li a {*/
+/*    color: #fff;*/
+/*    text-decoration: none;*/
+/*    font-size: 18px;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.home a:hover{*/
+/*    color: #121248;*/
+/*}*/
+/*.edu a:hover{*/
+/*    color: #121248;*/
+/*}*/
+/*.travel a:hover{*/
+/*    color: #121248;*/
+/*}*/
+/*.contact a:hover{*/
+/*    color: #121248;*/
+/*}*/
+/*h1{*/
+/*    margin-right: 200px;*/
+/*    text-transform: uppercase;*/
+/*    color: #522607;*/
+/*    letter-spacing: 5px;*/
+/*    border-left: 1px #522607 ridge;*/
+/*    display: inline-block;*/
+/*    width: 600px;*/
+/*    text-align: center;*/
+/*    !*padding-top: 20px;*!*/
+/*}*/
+/*.container{*/
+/*    margin-top: 80px;*/
+/*    width: 500px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+/*.form-section {*/
+/*    margin-left: -70px;*/
+/*}*/
+/*.form-section p{*/
+/*    font-size: larger;*/
+/*    width: 400px;*/
+/*    text-align: center;*/
+/*}*/
+/*.form-section input, .form-section textarea {*/
+/*    width: 60%;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 15px;*/
+/*    border: none;*/
+/*    border-bottom: 1px saddlebrown groove ;*/
+/*}*/
+/*.form-section button {*/
+/*    padding: 10px 20px;*/
+/*    border: none;*/
+/*    background-color: saddlebrown;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*    width: 365px;*/
+/*}*/
+/*.form-section button:hover {*/
+/*    background-color: #074607;*/
+/*}*/
+/*textarea{*/
+/*    height: 20px;*/
+/*}*/
+/*.info-section{*/
+/*    margin-right: -300px;*/
+/*    background-color: #522607;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    margin-top: -160px;*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*}*/
+/*.media ul li{*/
+/*    display: inline-block;*/
+/*    margin-right: 25px;*/
+/*    font-size: 30px;*/
+/*}*/
+/*.media ul li a{*/
+/*   color: white;*/
+/*}*/
+/*.media ul li a:hover{*/
+/*    color: #1b2e64;*/
+/*}*/
+/*.info-section a{*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
+body {
+    font-family: "Times New Roman", Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.con {
+    display: flex;
+    width: 100%;
+}
+
+aside {
+    position: fixed;
+}
+
+.sidebar {
+    background-color: #522607;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile img {
+    width: 290px;
+    height: 270px;
+    margin-top: -40px;
+    padding-bottom: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 35px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home a:hover {
+    color: #121248;
+}
+
+.edu a:hover {
+    color: #121248;
+}
+
+.travel a:hover {
+    color: #121248;
+}
+
+.contact a:hover {
+    color: #121248;
+}
+
+h1.contact-heading {
+    text-transform: uppercase;
+    color: #522607;
+    letter-spacing: 5px;
+    border: 1px solid #522607;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -250px;
+}
+
+.container {
+    margin-top: 200px;
+    width: 365px;
+
+}
+
+.container p {
+    font-size: larger;
+    width: 400px;
+    text-align: center;
+    margin-left: -330px;
+}
+.form-section{
+    margin-left: -300px;
+}
+.form-section input, .form-section textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px saddlebrown groove;
+
+}
+
+.form-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: saddlebrown;
+    color: white;
+    cursor: pointer;
+    width: 328px;
+}
+
+.form-section button:hover {
+    background-color: #074607;
+}
+
+textarea {
+    height: 20px;
+}
+
+.info-section {
+    margin-right: 0;
+    background-color: #522607;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    height: 100vh;
+    width: 500px;
+}
+
+.media ul li {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+.media ul li a {
+    color: white;
+}
+
+.media ul li a:hover {
+    color: #1b2e64;
+}
+
+.info-section a {
+    text-decoration: none;
+    color: white;
+}
+.info-item:first-of-type{
+    font-size: 14px;
+}
+.info-item a:hover{
+    color: #2e4e9f;
+}

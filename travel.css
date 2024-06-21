@@ -1,0 +1,147 @@
+body {
+    font-family: "Times New Roman",Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.con {
+    display: flex;
+    width: 100%;
+
+}
+aside{
+    position: fixed;
+}
+
+.sidebar {
+    background-color: #522607;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile img {
+
+    width: 290px;
+    height: 270px;
+    margin-top: -40px;
+    padding-bottom: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 35px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.home a:hover{
+    color: #121248;
+}
+.edu a:hover{
+    color: #121248;
+}
+.travel a:hover{
+    color: #121248;
+}
+.contact a:hover{
+    color: #121248;
+}
+h1{
+    margin-right: 220px;
+    text-transform: uppercase;
+    color: #522607;
+    letter-spacing: 5px;
+    border: 1px #522607 groove;
+    display: inline-block;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+.mesta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buda{
+    width: 350px;
+    border: 1px saddlebrown groove;
+    padding: 5px;
+    margin-left: -120px;
+}
+.buda p{
+    font-size: 15px;
+    text-align: justify;
+}
+.buda img{
+    display: inline-block;
+    padding-left: 5px;
+}
+.prague{
+    width: 350px;
+    border: 1px saddlebrown groove;
+    padding: 5px;
+    margin-left: -120px;
+}
+.prague p{
+    font-size: 15px;
+    text-align: justify;
+}
+.prague img{
+    display: inline-block;
+    padding-left: 5px;
+}
+.place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.vienna{
+    width: 350px;
+    border: 1px saddlebrown groove;
+    padding: 5px;
+    margin-left: -120px;
+    margin-bottom: 50px;
+}
+.vienna p{
+    font-size: 15px;
+    text-align: justify;
+}
+.vienna img{
+    display: inline-block;
+    padding-left: 5px;
+}
+.bg{
+    width: 350px;
+    border: 1px saddlebrown groove;
+    padding: 5px;
+    margin-left: -120px;
+    margin-bottom: 50px;
+}
+.bg p{
+    font-size: 15px;
+    text-align: justify;
+}
+.bg img{
+    display: inline-block;
+    padding-left: 5px;
+}
+main{
+    margin-bottom: 20px;
+}
